@@ -4,5 +4,26 @@
     box-sizing: border-box;
 }
 body{
+    background: #e6eff0;
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, Sans-serif;
+    text-rendering: optimizeLegibility !important; 
+    -webkit-font-smoothing: antialiased;
+}
 
+header#main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    background: #fff;
+}
+
+header#main-header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+
+header#main-header nav ul li{
+    text-decoration: none;
 }
